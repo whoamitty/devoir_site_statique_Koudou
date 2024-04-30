@@ -1,0 +1,239 @@
+body{
+
+    /* background-image: url("https://web.telegram.org/z/chat-bg-pattern-light.ee148af944f6580293ae.png"); */
+    background-image: url("./chat-bg-pattern-light.ee148af944f6580293ae.png");
+
+    background-color: #5e6d8b;
+    color: #fff;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+a {
+    color: #E99BB5;
+}
+
+
+
+
+
+
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    position: sticky;
+    top: 0px;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 33%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    color: gold;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+nav .current{
+    border-bottom:  solid gold;
+}
+nav a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+#sticky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px; 
+    background-color: #061880;
+
+
+}
+
+
+
+.contenu{
+    padding-top: 5em;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+h1{
+    font-size:70px;
+}
+
+h2{
+    font-size:35px;
+
+}
+
+p {
+    font-size:35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .crumb {
+    display: inline-block;
+} */
+
+/**-------------------------------------------------- 
+ * mis en commentaire à  11:33 le 16 Mars 2023
+*/ 
+/**
+#sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #061880;
+    
+}    
+
+.box{
+    justify-content: center;
+    
+}    
+
+
+nav {
+    padding-bottom: 10px;
+}    
+
+*/
+
+
+
+
+
+/* nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    
+} */    
+/* 👆 padding: 10px; */
+/* margin-top: auto; */
+
+/* ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+}    
+
+
+ul li a:hover{
+    color: rgb(194, 93, 26);
+    letter-spacing: 0.1rem;
+}    
+
+.lien_body:hover{
+    color: rgb(194, 93, 26);
+}    
+
+
+
+.crumb {
+    display: inline-block;
+}    
+ */
+
+/**mis en commentaire à  11:33 le 16 Mars 2023
+ * -------------------------------------------------- */ 
+
+
+
+
+
+
+
+/* nav {
+    border-bottom: 1px solid black;
+}    
+
+.crumbs ol {
+    list-style-type: none;
+    /* padding-left: 0; 
+}    
+*/
+
+
+
+/* .crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+} */    
+/* padding: 0 3px; */
+
+
